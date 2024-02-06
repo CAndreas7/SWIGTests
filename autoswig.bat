@@ -1,0 +1,1 @@
+gcc -c -fpic divide_wrap.c divideC.c -IC:\Users\Charles\AppData\Local\Programs\Python\Python312\include
