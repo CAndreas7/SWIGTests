@@ -4,6 +4,7 @@ def dividePy(num, den):
         return None
     return num / den
 
+
 num = int(input("Enter the numerator: "))
 den = int(input("Enter the denominator: "))
 result = dividePy(num, den)
