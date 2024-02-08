@@ -1,9 +1,10 @@
 import unittest
 import pytest
 import divide
-from divide.dividePy import dividePy
+from divide.divide import dividePy
 
-class TestDividePy(pytest.TestCase):
+
+class TestDividePy(unittest.TestCase):
 
     def test_dividePy(self):
         self.assertEqual(dividePy(10, 2), 5)
@@ -11,6 +12,7 @@ class TestDividePy(pytest.TestCase):
         self.assertEqual(dividePy(10, -2), -5)
         self.assertEqual(dividePy(-10, -2), 5)
         self.assertIsNone(dividePy(10, 0))
+
 
 """ class TestDivideC(unittest.TestCase):
 
