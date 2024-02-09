@@ -15,8 +15,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/github/Python/SWIGTests",
-      "program": "c:/github/Python/SWIGTests/build/Debug/outDebug",
+      "cwd": "c:/github/Python/SWIGTests/divide",
+      "program": "c:/github/Python/SWIGTests/divide/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
