@@ -8,5 +8,4 @@ class TestPytest:
         assert dividePy(-10, 2) == -5
         assert dividePy(10, -2) == -5
         assert dividePy(-10, -2) == 5
-        with pytest.raises(ZeroDivisionError):
-            dividePy(10, 0)
+        assert dividePy(10, 0) is None
