@@ -1,5 +1,5 @@
 import pytest
-from operations import add, multiply, divide
+from operations import add, multiply, divide, subtract
 from unittest.mock import patch
 
 def test_dividePy():
@@ -17,6 +17,13 @@ def test_add():
     assert add(-3,7) == 4
     assert add(3,-7) == -4
     assert add(-3,-7) == -10
+
+def test_subtract(): 
+    assert subtract(1,1) == 0
+    assert subtract(2,1) == 1
+    assert subtract(1,2) == -1
+    assert subtract(-1,-1) == 0
+    assert subtract(-1, 1) == -2
 
 def test_multiply():
     with patch('operations.add', return_value=15) as mock_add:

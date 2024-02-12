@@ -16,7 +16,14 @@ class TestUnittest(unittest.TestCase):
         with patch('operations.add', return_value=10):
             result = add(3, 7)
             self.assertEqual(result, 10)
-
+            
+    def test_subtract(self):
+        self.assertEqual(subtract(1,1), 0)
+        self.assertEqual(subtract(2,1), 1)
+        self.assertEqual(subtract(1,2), -1)
+        self.assertEqual(subtract(-1,-1), 0)
+        self.assertEqual(subtract(-1,1), -2)
+        
     def test_multiply(self):
         with patch('operations.add', return_value=15):
             result = multiply(3, 5)
