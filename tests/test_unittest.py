@@ -13,9 +13,11 @@ class TestUnittest(unittest.TestCase):
         self.assertIsNone(divide(10, 0))
         
     def test_add(self):
-        with patch('operations.add', return_value=10):
-            result = add(3, 7)
-            self.assertEqual(result, 10)
+        self.assertEqual(add(1,1), 2)
+        self.assertEqual(add(2,1), 3)
+        self.assertEqual(add(1,2), 3)
+        self.assertEqual(add(-1,-1), -2)
+        self.assertEqual(add(-1,1), 0)
             
     def test_subtract(self):
         self.assertEqual(subtract(1,1), 0)
