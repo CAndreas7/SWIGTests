@@ -1,4 +1,4 @@
-from divide.divide import dividePy
+from divide import dividePy
 
 class TestPytest:
     
