@@ -3,7 +3,8 @@
         {
             "name": "windows-cygwin-gcc-x64",
             "includePath": [
-                "${workspaceFolder}/**"
+                "${workspaceFolder}/**",
+                "E:\\Program Files (x86)\\cmocka\\include"
             ],
             "compilerPath": "C:/cygwin64/bin/gcc.exe",
             "cStandard": "${default}",
