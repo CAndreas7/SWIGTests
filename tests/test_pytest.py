@@ -1,5 +1,5 @@
 import pytest
-from operations import add, multiply, divide, subtract
+from operations import *
 from unittest.mock import patch
 
 def test_dividePy():
