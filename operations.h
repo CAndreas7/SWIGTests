@@ -1,9 +1,9 @@
 #ifndef OPERATIONS_H
 #define OPERATIONS_H
 
-double divide(double num, double den);
-double add(double a, double b);
-double subtract(double a, double b);
-double multiply(double a, double b);
+int add(int a, int b);
+int subtract(int a, int b);
+int multiply(int a, int b);
+int divide(int num, int den);
 
 #endif
