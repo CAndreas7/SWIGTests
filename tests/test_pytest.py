@@ -45,3 +45,5 @@ def test_multiply():
         result = multiply(2, -3)
         assert result == -6
         assert mock_add.call_count == 3
+def test_failure():
+    assert add(1,1) == 3
