@@ -4,8 +4,8 @@
 #include <cmocka.h>
 #include "operations.h"
 
-double __wrap_add(double a, double b) {
-    return mock_type(double);
+double __wrap_add(int a, int b) {
+    return mock_type(int);
 }
 
 static void test_multiply(void **state) {
